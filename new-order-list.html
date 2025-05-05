@@ -25,6 +25,12 @@
     <link href="vendor/swiper/css/swiper-bundle.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/dev-style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="vendor/select2/css/select2.min.css">
+
+    
+    
+
 
 
 </head>
@@ -222,18 +228,24 @@
                           <div id="msform">
                             <form class="stepper-one row needs-validation custom-input" novalidate="">
                              
-                              <div class="col-md-4 mb-2">
+                              <div class="col-md-4 mb-3">
                                   <label class="form-label" for="zodic-sign">Order ID</label>
                                   <input class="form-control w-100 rounded border">
                                 </div>
                              
-                                  <div class="col-md-4 mb-2">
+                                  <div class="col-md-4 mb-3">
                                     <label class="form-label" for="zodic-sign">Dealer Name</label>
-                                    <input class="form-control w-100 rounded border">
+                                    <select class="single-select">
+                                        <option value="AL">Alabama</option>
+                                        <option value="WY">Wyoming</option>
+                                    </select>
                                   </div>  
-                                   <div class="col-md-4 mb-2">
+                                   <div class="col-md-4 mb-3">
                                     <label class="form-label" for="zodic-sign">Item</label>
-                                    <input class="form-control w-100 rounded border">
+                                    <select class="single-select">
+                                        <option value="AL">Alabama</option>
+                                        <option value="WY">Wyoming</option>
+                                    </select>
                                   </div>
                                   <div class="col-md-4 mb-2">
                                     <label class="form-label" for="zodic-sign">Sr. No</label>
@@ -420,9 +432,6 @@
                     <div class="col-md-6">
                         <p class="fs-6 mb-1"><strong>Order Stage : </strong> <span class="badge light badge-success me-1">New Order</span></p>
                     </div>
-                   
-                 
-                   
                                 </div>
                 </div>
                
@@ -470,6 +479,18 @@
     <script src="js/dlabnav-init.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/demo.js"></script>
+    <script src="vendor/ckeditor/ckeditor.js"></script>
+    <script src="vendor/global/global.min.js"></script>
+	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
+	<script src="vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendor/select2/js/select2.full.min.js"></script>
+    <script src="js/plugins-init/select2-init.js"></script>
+    <script src="js/custom.js"></script>
+	<script src="js/dlabnav-init.js"></script>
+<script src="vendor/swiper/js/swiper-bundle.min.js"></script>
+
+	<script src="js/demo.js"></script>
     <!-- <script src="js/styleSwitcher.js"></script> -->
 </body>
 
