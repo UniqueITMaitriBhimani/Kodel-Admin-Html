@@ -342,12 +342,13 @@
                                                 <td>20</td>
                                                 <td>20/05/2024</td>
                                                 <td>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#viewModal">View</a>
 													<div class="dropdown">
 														<button type="button" class="btn border border-light light sharp" data-bs-toggle="dropdown">
 															<svg width="20px" height="20px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
 														</button>
 														<div class="dropdown-menu">
-															<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#viewModal">View</a>
+															
 															<a class="dropdown-item" href="add-order.html">Update</a>
 															<a class="dropdown-item" href="#">Production Order</a>
 															<a class="dropdown-item" href="#">Cancel</a>
@@ -414,24 +415,48 @@
                 <div class="modal-body">
                   <!-- Modal content here -->
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <p class="fs-6 mb-1"><strong>Order Number : </strong>D0034</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                       <p class="fs-6 mb-1"><strong>Dealer Name : </strong>Maitri Bhimani</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                       <p class="fs-6 mb-1"><strong>Item : </strong>Bentiey Napa</p>
                     </div>
-                    <div class="col-md-6">
-                        <p class="fs-6 mb-1"><strong>Meter : </strong> 200 m</p>
-                    </div>
-                    <div class="col-md-6">
+                   
+                    <div class="col-md-12">
                         <p class="fs-6 mb-1"><strong>Arrival Date : </strong> 24/05/2025 </p>
                     </div>
-                    <div class="col-md-6">
+                      <div class="col-md-12">
                         <p class="fs-6 mb-1"><strong>Order Stage : </strong> <span class="badge light badge-success me-1">New Order</span></p>
                     </div>
+                    <div class="col-md-12">
+    <p class="fs-6 mb-1"><strong>Product List:</strong></p>
+    <table class="table table-sm table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Product Code</th>
+                <th>Color</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Black</td>
+                <td>50 Meter</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Brown</td>
+                <td>100 Meter</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+                  
                                 </div>
                 </div>
                
